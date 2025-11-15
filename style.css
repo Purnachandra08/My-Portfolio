@@ -11,9 +11,6 @@ body {
   scroll-behavior: smooth;
 }
 
-/* ===========================
-   Desktop Navbar Styling
-=========================== */
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -31,7 +28,6 @@ body {
   font-weight: bold;
 }
 
-/* Navbar Links */
 .navbar ul {
   list-style: none;
   display: flex;
@@ -42,80 +38,53 @@ body {
   text-decoration: none;
   color: #333;
   transition: 0.3s;
-  font-weight: 500;
 }
 
-.navbar a:hover,
-.navbar a.active {
+.navbar a:hover {
   color: #007bff;
 }
-
-/* ===========================
-   Hamburger Icon (hidden desktop)
-=========================== */
-.hamburger {
-  display: none;
-  font-size: 1.9rem;
-  cursor: pointer;
-  user-select: none;
-}
-
-/* ===========================
-   Responsive Navbar
-=========================== */
+/* 🌐 Responsive Navbar for Small Devices */
 @media (max-width: 768px) {
   .navbar {
-    flex-direction: row;
+    flex-direction: column;
+    align-items: flex-start;
     padding: 1rem;
   }
 
-  /* Show hamburger */
-  .hamburger {
-    display: block;
+  .navbar .logo {
+    font-size: 1.3rem;
+    margin-bottom: 0.5rem;
   }
 
-  /* Hide menu initially */
-  nav {
-    display: none;
-    width: 100%;
-  }
-
-  nav ul {
+  .navbar ul {
     flex-direction: column;
-    background: #ffffff;
     width: 100%;
-    padding: 1rem 0;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-    gap: 1rem;
+    gap: 0.8rem;
   }
 
-  nav ul li {
+  .navbar ul li {
     width: 100%;
-    padding-left: 1rem;
   }
 
-  nav a {
+  .navbar a {
     display: block;
     padding: 0.5rem 0;
-  }
-
-  /* When menu is opened */
-  nav.open {
-    display: block;
+    width: 100%;
+    font-size: 1rem;
   }
 }
 
-/* Extra small devices */
+/* 📱 Extra Small Devices (Mobile Phones) */
 @media (max-width: 480px) {
+  .navbar {
+    padding: 0.8rem 1rem;
+  }
+
   .navbar .logo {
     font-size: 1.2rem;
   }
 
-  .hamburger {
-    font-size: 1.7rem;
-  }
-
-  nav a {
+  .navbar a {
     font-size: 0.9rem;
   }
 }
