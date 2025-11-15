@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+
+  <!-- Navbar -->
+ <header class="navbar">
+  <div class="logo">MyPortfolio</div>
+
+  <div class="hamburger" onclick="toggleMenu()">
+    ☰
+  </div>
+
+  <nav id="nav-menu">
+    <ul>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#about">About Me</a></li>
+      <li><a href="#social">Social</a></li>
+    </ul>
+  </nav>
+</header>
+
+
+<section class="hero">
+  <div class="hero-content">
+    <h1>Hi, I'm <span>Purnachandra Mallick</span></h1>
+    <p>A passionate developer building impactful projects.</p>
+    <a href="resume/Purnachandra_Mallick_Resume.pdf" class="btn-resume" download>Download Resume</a>
+  </div>
+  <div class="hero-image">
+    <img src="images/hero.jpg" alt="My Photo" />
+  </div>
+</section>
+
+<!-- About Me Section -->
+<section id="about" class="section about-section">
+  <h2 class="section-title">About Me</h2>
+  <div class="about-container">
+    <div class="about-text-card">
+      <div class="code-terminal">
+        <p><span class="terminal-line">> Hello, I'm <strong class="code-highlight">Purnachandra Mallick</strong></span></p>
+        <p><span class="terminal-line">> I'm from <strong class="code-highlight">Cuttack, Odisha</strong></span></p>
+        <p><span class="terminal-line">> Aspiring <strong class="code-highlight">Software Engineer</strong></span></p>
+        <p><span class="terminal-line">> Love: <strong class="code-highlight">LeetCode • Coding • Cricket</strong></span></p>
+        <p><span class="terminal-line">> Parents: <strong class="code-highlight">Bhimsen Mallick & Sulochana Sahoo</strong></span></p>
+      </div>
+
+      <div class="floating-cards">
+        <div class="float-card fade-in">
+          <h4>Problem Solver</h4>
+          <p>Regularly solve challenges on <strong>LeetCode</strong> & <strong>GeeksforGeeks</strong>.</p>
+        </div>
+        <div class="float-card slide-in">
+          <h4>Tech Explorer</h4>
+          <p>Love learning about backend systems, APIs, and modern JavaScript frameworks.</p>
+        </div>
+        <div class="float-card zoom-in">
+          <h4>Student Life</h4>
+          <p>Pursuing B.Tech in CSE, focused on building a strong foundation in DSA & DBMS.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+ <!-- Education Section -->
+<section id="education" class="section">
+  <h2>Education</h2>
+  <div class="education-container">
+    
+    <!-- 10th -->
+    <div class="education-card">
+      <h3>10th Standard</h3>
+      <p><strong>School:</strong>Saraswati Shishu Bidya Mandir, Sharadanagar</p>
+      <p><strong>Address:</strong> Cuttack, Odisha</p>
+      <p><strong>Marks:</strong> 75.66%</p>
+      <p><strong>Year:</strong> 2020</p>
+    </div>
+
+    <!-- 12th -->
+    <div class="education-card">
+      <h3>12th Standard</h3>
+      <p><strong>School:</strong> Choudwar collage</p>
+      <p><strong>Address:</strong> Cuttack, Odisha</p>
+      <p><strong>Marks:</strong> 75.33%</p>
+      <p><strong>Year:</strong> 2022</p>
+    </div>
+
+    <!-- B.Tech -->
+    <div class="education-card">
+      <h3>B.Tech in Computer Science</h3>
+      <p><strong>College:</strong> Centurion university of technology and management</p>
+      <p><strong>Address:</strong> Bhubaneswar, Odisha</p>
+      <p><strong>CGPA:</strong> 8.98</p>
+      <p><strong>Year:</strong> 2023 - Present</p>
+    </div>
+
+  </div>
+</section>
+
+<!-- Skills Section -->
+<section id="skills" class="section">
+  <h2 class="section-title">Skills</h2>
+  <div class="skills-container">
+    <!-- Repeat the skill icon blocks for each skill -->
+    <div class="skill-icon">
+      <img src="skills/html.png" alt="HTML" />
+      <p>HTML</p>
+    </div>
+    <div class="skill-icon">
+      <img src="skills/css.png" alt="CSS" />
+      <p>CSS</p>
+    </div>
+    <div class="skill-icon">
+      <img src="skills/js.png" alt="JavaScript" />
+      <p>JavaScript</p>
+    </div>
+    <div class="skill-icon">
+      <img src="skills/angular.png" alt="Angular" />
+      <p>AngularJS</p>
+    </div>
+    <div class="skill-icon">
+      <img src="skills/java.png" alt="Java" />
+      <p>Java</p>
+    </div>
+    <div class="skill-icon">
+      <img src="skills/springboot.png" alt="Spring Boot" />
+      <p>Spring Boot</p>
+    </div>
+    <div class="skill-icon">
+      <img src="skills/c.png" alt="C" />
+      <p>C</p>
+    </div>
+    <div class="skill-icon">
+      <img src="skills/python.jpeg" alt="Python" />
+      <p>Python</p>
+    </div>
+    <div class="skill-icon">
+      <img src="skills/mysql.png" alt="MySQL" />
+      <p>MySQL</p>
+    </div>
+    <div class="skill-icon">
+      <img src="skills/mongodb.png" alt="MongoDB" />
+      <p>MongoDB</p>
+    </div>
+    <div class="skill-icon">
+      <img src="skills/data-structure.png" alt="Data Structures" />
+      <p>Data Structure</p>
+    </div>
+    <div class="skill-icon">
+      <img src="skills/dbms.jpeg" alt="DBMS" />
+      <p>DBMS</p>
+    </div>
+  </div>
+</section>
+
+
+
+<!-- Projects Section -->
+<section id="projects" class="section">
+  <h2 class="section-title">Projects</h2>
+  <div class="projects-container">
+
+    <!-- Hostel Management System -->
+    <div class="project-card">
+      <div class="project-icon"><i class="fas fa-hotel"></i></div>
+      <div class="project-info">
+        <h3>Hostel Management System</h3>
+        <p>Full-stack Hostel Management System built with Angular, Spring Boot, and MySQL, featuring room, student, and warden management.</p>
+        <a href="https://github.com/Purnachandra08/Hostel-Management-System" class="project-link" target="_blank">View on GitHub</a>
+      </div>
+    </div>
+
+    <!-- Healthcare Appointment & E-Prescription -->
+    <div class="project-card">
+      <div class="project-icon"><i class="fas fa-notes-medical"></i></div>
+      <div class="project-info">
+        <h3>Healthcare Appointment & E-Prescription</h3>
+        <p>Advanced medical system for booking appointments, managing patients, and generating digital prescriptions using Spring Boot & Angular.</p>
+        <a href="https://github.com/Purnachandra08/HealthcarePortal" class="project-link" target="_blank">View on GitHub</a>
+      </div>
+    </div>
+
+    <!-- Note Sharing Platform -->
+    <div class="project-card">
+      <div class="project-icon"><i class="fas fa-cloud-upload-alt"></i></div>
+      <div class="project-info">
+        <h3>Note Sharing Platform</h3>
+        <p>Cloud-based full-stack platform for uploading, searching, and sharing notes with real-time collaboration and secure access.</p>
+        <a href="https://github.com/Purnachandra08/Cloud-note-sharing-management-system" class="project-link" target="_blank">View on GitHub</a>
+      </div>
+    </div>
+
+    <!-- Tic Tac Toe Game -->
+    <div class="project-card">
+      <div class="project-icon"><i class="fas fa-th"></i></div>
+      <div class="project-info">
+        <h3>Tic Tac Toe Game</h3>
+        <p>Classic 2-player game built with HTML, CSS & JS, with win detection, reset function, and attractive visual feedback.</p>
+        <a href="https://github.com/Purnachandra08/Tic-Tac-Toe-Game" class="project-link" target="_blank">View on GitHub</a>
+      </div>
+    </div>
+
+    <!-- Simple Calculator -->
+    <div class="project-card">
+      <div class="project-icon"><i class="fas fa-calculator"></i></div>
+      <div class="project-info">
+        <h3>Simple Calculator</h3>
+        <p>Responsive calculator web app that performs basic arithmetic operations, styled with interactive buttons and layout.</p>
+        <a href="https://github.com/Purnachandra08/Simple_Calculatorr" class="project-link" target="_blank">View on GitHub</a>
+      </div>
+    </div>
+
+    <!-- Todo List App -->
+    <div class="project-card">
+      <div class="project-icon"><i class="fas fa-tasks"></i></div>
+      <div class="project-info">
+        <h3>Todo List App</h3>
+        <p>Task management app to add, edit, mark as done, and delete tasks with visual progress tracker and confetti animations.</p>
+        <a href="https://github.com/Purnachandra08/Todo-List-App" class="project-link" target="_blank">View on GitHub</a>
+      </div>
+    </div>
+
+    <!-- Age Calculator App -->
+    <div class="project-card">
+      <div class="project-icon"><i class="fas fa-birthday-cake"></i></div>
+      <div class="project-info">
+        <h3>Age Calculator</h3>
+        <p>Colorful web app to calculate age in years, months, and hours from DOB using interactive date input with JS logic.</p>
+        <a href="https://github.com/Purnachandra08/Age-Calculator" class="project-link" target="_blank">View on GitHub</a>
+      </div>
+    </div>
+
+    <!-- Amazon Clone -->
+    <div class="project-card">
+      <div class="project-icon"><i class="fas fa-shopping-cart"></i></div>
+      <div class="project-info">
+        <h3>Amazon Clone</h3>
+        <p>Amazon-style eCommerce front-end clone with responsive product listing, navigation bar, search bar, and cart layout.</p>
+        <a href="https://github.com/Purnachandra08/Amazon-clone" class="project-link" target="_blank">View on GitHub</a>
+      </div>
+    </div>
+
+    <!-- E-Commerce Website -->
+    <div class="project-card">
+      <div class="project-icon"><i class="fas fa-store"></i></div>
+      <div class="project-info">
+        <h3>E-Commerce Website</h3>
+        <p>Feature-rich eCommerce website with product catalog, cart, order summary, and modern responsive UI built using HTML/CSS/JS.</p>
+        <a href="https://github.com/Purnachandra08/E-Commerce-Website" class="project-link" target="_blank">View on GitHub</a>
+      </div>
+    </div>
+
+    <!-- Connect Four Game -->
+    <div class="project-card">
+      <div class="project-icon"><i class="fas fa-gamepad"></i></div>
+      <div class="project-info">
+        <h3>Connect Four Game</h3>
+        <p>Stylish multiplayer Connect Four game built using JavaScript logic with color animations and win-checking algorithm.</p>
+        <a href="https://github.com/Purnachandra08/Connect-Four-Game" class="project-link" target="_blank">View on GitHub</a>
+      </div>
+    </div>
+
+    <!-- Currency Converter App -->
+    <div class="project-card">
+      <div class="project-icon"><i class="fas fa-money-bill-wave"></i></div>
+      <div class="project-info">
+        <h3>Currency Converter</h3>
+        <p>Simple currency conversion web app using real-time exchange rates API with clean UI and quick conversion results.</p>
+        <a href="https://github.com/Purnachandra08/Currency-Converter" class="project-link" target="_blank">View on GitHub</a>
+      </div>
+    </div>
+
+    <!-- Height-Weight Checker -->
+    <div class="project-card">
+      <div class="project-icon"><i class="fas fa-user-check"></i></div>
+      <div class="project-info">
+        <h3>Height-Weight Checker</h3>
+        <p>Interactive BMI calculator that checks health category using height and weight inputs, providing instant results.</p>
+        <a href="https://github.com/Purnachandra08/Perfect-Height-Weight-Checker" class="project-link" target="_blank">View on GitHub</a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- Experience Section -->
+<section id="experience" class="section">
+  <h2>Experience</h2>
+  <div class="experience-card">
+    <div class="experience-details">
+      <h3>Web Developer Intern</h3>
+      <p><strong>Company:</strong> INTERPE </p>
+      <p><strong>Duration:</strong> June 2025 – July 2025</p>
+      <p>
+        Worked on developing responsive web interfaces, implemented UI features using HTML, CSS, and JavaScript,
+        and collaborated with the backend team to integrate REST APIs.
+      </p>
+    </div>
+    <div class="experience-certificate">
+      <a href="certificate/resume.jpeg" target="_blank">
+        <img src="certificate/resume.jpeg" alt="Internship Certificate" />
+      </a>
+    </div>
+  </div>
+</section>
+
+
+<!-- Social Media Section -->
+<section id="social" class="section">
+  <h2 class="section-title">Connect With Me</h2>
+  <div class="social-container">
+
+    <!-- GitHub -->
+    <div class="social-card">
+      <img src="social/github-qr.png" alt="GitHub QR Code" class="qr-code" />
+      <div class="social-info">
+        <h3>GitHub</h3>
+        <a href="https://github.com/Purnachandra08" target="_blank">Purnachandra08</a>
+      </div>
+    </div>
+
+    <!-- LinkedIn -->
+    <div class="social-card">
+      <img src="social/linkedin-qr.jpg" alt="LinkedIn QR Code" class="qr-code" />
+      <div class="social-info">
+        <h3>LinkedIn</h3>
+        <a href="https://linkedin.com/in/purnachandra-mallick-209884320" target="_blank">Purnachandra Mallick</a>
+      </div>
+    </div>
+
+    <!-- Instagram -->
+    <div class="social-card">
+      <img src="social/instagram-qr.jpg" alt="Instagram QR Code" class="qr-code" />
+      <div class="social-info">
+        <h3>Instagram</h3>
+        <a href="https://www.instagram.com/itz_purna_08?igsh=MWdiZjdtdDdrOGJheg==" target="_blank">itz_purna_08</a>
+      </div>
+    </div>
+
+    <!-- WhatsApp -->
+    <div class="social-card">
+      <img src="social/whatsapp-qr.jpg" alt="WhatsApp QR Code" class="qr-code" />
+      <div class="social-info">
+        <h3>WhatsApp</h3>
+        <a href="https://wa.me/qr/62CLV6CDMQ6EI1 " target="_blank">Message Me</a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+
+ <!-- Footer -->
+<footer class="footer">
+  <div class="footer-container">
+    
+    <!-- Left: Name and Copyright -->
+    <div class="footer-left">
+      <h2>Purnachandra Mallick</h2>
+      <p>© 2025 All rights reserved.</p>
+      <p>Email: <a href="mailto:purnachandram674@gmail.com">purnachandram674@gmail.com</a></p>
+    </div>
+
+    <!-- Center: Quick Links -->
+    <div class="footer-middle">
+      <h3>Quick Links</h3>
+      <ul>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#social">Social</a></li>
+      </ul>
+    </div>
+
+    <!-- Right: Social Media Icons -->
+    <div class="footer-right">
+      <h3>Connect</h3>
+      <div class="social-icons">
+        <a href="https://github.com/Purnachandra08" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="https://linkedin.com/in/purnachandra-mallick-209884320" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="https://www.instagram.com/itz_purna_08" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://wa.me/qr/62CLV6CDMQ6EI1" target="_blank"><i class="fab fa-whatsapp"></i></a>
+      </div>
+    </div>
+
+  </div>
+</footer>
+
+
+</body>
+</html>
